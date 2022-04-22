@@ -1,25 +1,21 @@
 *,
 *::before,
-*::after{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-
-html{
+html {
   font-family: 'Roboto', sans-serif;
   font-size: 10px;
 }
 
-img{
-  width: 100%
+img {
+  width: 100%;
 }
 
-
-
-body{
+body {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -30,58 +26,59 @@ body{
   background-color: #4facfe;
 }
 
-.blog-post__card{
-  width: 100%;
-  max-width:98rem;
+.blog-post__card {
+  max-width: 100%;
+  max-width: 98rem;
   padding: 5rem;
   background-color: #fff;
-  box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+  box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
 }
 
-
-
-.blog-post__img{
+.blog-post__img {
   min-width: 35rem;
   max-width: 35rem;
   height: 30rem;
-  transform: translateX(-8rem); 
+  transform: translateX(-8rem);
   position: relative;
 }
 
-.blog-post__img img{
+.blog-post__img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
 }
 
-.bog-post__img::before{
+.bog-post__img::before {
   content: '';
- width: 100%;
- height: 100%;
- position: absolute;
- top: 0;
- left: 0;
- background: linear-gradient(to right, rgba(79, 172, 254, .8),
-                                         rgba(0, 242, 254, .8));
-  box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
-border-radius: .8rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(79, 172, 254, 0.8),
+    rgba(0, 242, 254, 0.8)
+  );
+  box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.05);
+  border-radius: 0.8rem;
 }
 
-.blog-post__date span{
+.blog-post__date span {
   display: block;
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, 0.5);
   font-size: 1.6rem;
   font-weight: 600;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
-.blog-post__title{
-  font-size:2.5rem;
+.blog-post__title {
+  font-size: 2.5rem;
   margin: 1.5rem 0 2rem;
   text-transform: uppercase;
   color: #4facfe;
@@ -103,34 +100,30 @@ border-radius: .8rem;
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   border-radius: 0.8rem;
   text-decoration: none;
-
 }
-  
-.blog-post__cta:hover{
-  background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
 
+.blog-post__cta:hover {
+  background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
 }
 
 @media screen and (max-width: 868px) {
-  .blog-post{
+  .blog-post {
     max-width: 70rem;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .blog-post{
+  .blog-post {
     padding: 2.5rem;
     flex-direction: column;
   }
 
-  
-  .blog-post__img{
+  .blog-post__img {
     min-width: 100%;
     max-width: 100%;
-  transform: translate(0, -8rem);
+    transform: translate(0, -8rem);
   }
 }
-
 
 /* -----------------------------
 Te Houtea Blog CSS Formatting
@@ -139,43 +132,40 @@ Te Houtea Blog CSS Formatting
 
 } */
 
-
-
 .te-houtaewa-blog__heading {
   display: bold;
-  font-size:9em;
-  margin-block-start: 0.83em;
+  font-size: 8em;
+  margin-block-start: 1em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: sunderline;
   color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 100px;
 }
 
 .te-houtaewa-blog__sub-title {
   display: block;
-  font-size:4em;
+  font-size: 4em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
   color: rgb(0, 0, 0);
-  
 }
 
 .te-houtaewa-blog__date {
   display: block;
-  font-size:3em;
+  font-size: 3em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
   color: rgb(0, 0, 0);
-  
 }
-
 
 .te-houtaewa-blog__paragraph {
   display: block;
@@ -187,8 +177,6 @@ Te Houtea Blog CSS Formatting
   font-weight: bold;
   color: black;
 }
-
-
 
 /* -----------------------------
 CSS Selectors Formatting
@@ -197,45 +185,43 @@ CSS Selectors Formatting
 
 } */
 
-
-
-.h1-headings__heading {
+#css-selector-blog__title {
   display: bold;
-  font-size:9em;
+  font-size: 5em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-weight: sunderline;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
   color: rgb(0, 0, 0);
 }
 
-.h2-headings__sub-heading {
-  display: block;
-  font-size:4em;
+.css-selectors__heading {
+  display: bold;
+  font-size: 3em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
   color: rgb(0, 0, 0);
-  
 }
 
-.te-houtaewa-blog__date {
-  display: block;
-  font-size:3em;
+.css-selectors__sub-heading {
+  display: inline;
+  font-size: 4em;
+  font-family: Arial, Helvetica, sans-serif;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-weight: bold;
+  font-weight: lighter;
   color: rgb(0, 0, 0);
-  
 }
 
-
-.te-houtaewa-blog__paragraph {
+.css-selectors__paragraph {
   display: block;
   font-size: 3em;
   margin-block-start: 0.83em;
@@ -245,3 +231,10 @@ CSS Selectors Formatting
   font-weight: bold;
   color: black;
 }
+
+.picture-size__picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
