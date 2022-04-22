@@ -15,21 +15,24 @@ img {
   width: 100%;
 }
 
+
 body {
-  width: 100%;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #eee;
   padding: 0 1.5em;
   background-color: #4facfe;
+  background-image: url("../assets/sky.jpg");
 }
 
 .blog-post__card {
   max-width: 100%;
   max-width: 98rem;
+  max-height: 100vh;
   padding: 5rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
   background-color: #fff;
   box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
   display: flex;
@@ -181,17 +184,15 @@ Te Houtea Blog CSS Formatting
 /* -----------------------------
 CSS Selectors Formatting
 ----------------------------- */
-/* .CSS Selectors__container{
+/* .CSS Selectors__Container{
 
 } */
 
-#css-selector-blog__title {
+#css-selectors-blog__title {
   display: bold;
-  font-size: 5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  font-size: 4em;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
   font-weight: bold;
   text-align: center;
   line-height: 100px;
@@ -199,42 +200,37 @@ CSS Selectors Formatting
 }
 
 .css-selectors__heading {
-  display: bold;
-  font-size: 3em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
 }
 
 .css-selectors__sub-heading {
-  display: inline;
-  font-size: 4em;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: lighter;
-  color: rgb(0, 0, 0);
+  display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 .css-selectors__paragraph {
-  display: block;
-  font-size: 3em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  color: black;
+display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 16px;
 }
 
 .picture-size__picture {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 40%;
+  position: relative;
+  right:4px;
  }
