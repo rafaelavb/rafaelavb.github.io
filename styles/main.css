@@ -42,6 +42,15 @@ img {
   background-color: #ffffff; 
 }
 
+.back-ground-color__learning-plan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  padding: 0 1.5em;
+  background-color: #ffffff; 
+}
+
 .blog-post__card {
   max-width: 100%;
   max-width: 98rem;
@@ -55,6 +64,12 @@ img {
   align-items: center;
   border-radius: 0.8rem;
 }
+
+/******************
+---------------------------------------------------
+Blog Images CSS
+--------------------------------------------------
+******************/
 
 .blog-post__img {
   min-width: 35rem;
@@ -204,7 +219,7 @@ CSS Selectors Formatting
 
 } */
 
-#css-selectors-blog__title {
+#blog-title__center-format {
   display: bold;
   font-size: 4em;
   margin-block-start: 0.1em;
@@ -215,7 +230,7 @@ CSS Selectors Formatting
   color: rgb(0, 0, 0);
 }
 
-.css-selectors__heading {
+.blog-heading__h1-heading-format {
   display: block;
   font-size: 1.17em;
   margin-block-start: 1em;
@@ -225,7 +240,7 @@ CSS Selectors Formatting
   font-weight: bold;
 }
 
-.css-selectors__sub-heading {
+.sub-heading__h2-formatting {
   display: block;
   font-size: 1.17em;
   margin-block-start: 1em;
@@ -235,7 +250,7 @@ CSS Selectors Formatting
   font-weight: bold;
 }
 
-.css-selectors__paragraph {
+.blog-paragraph__paragraph-formatting {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
