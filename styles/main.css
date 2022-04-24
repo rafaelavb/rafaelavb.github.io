@@ -15,15 +15,31 @@ img {
   width: 100%;
 }
 
-
-body {
+.back-ground-color__home {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #eee;
   padding: 0 1.5em;
-  background-color: #4facfe;
-  background-image: url("../assets/sky.jpg");
+  background: url('../assets/sky.jpg') no-repeat
+}
+
+.back-ground-color__css-selectors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  padding: 0 1.5em;
+  background-color: #ffffff;
+}
+
+.back-ground-color__te-houtaewa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  padding: 0 1.5em;
+  background-color: #ffffff; 
 }
 
 .blog-post__card {
@@ -184,7 +200,7 @@ Te Houtea Blog CSS Formatting
 /* -----------------------------
 CSS Selectors Formatting
 ----------------------------- */
-/* .CSS Selectors__Container{
+/* .css-selectors__container{
 
 } */
 
@@ -211,26 +227,26 @@ CSS Selectors Formatting
 
 .css-selectors__sub-heading {
   display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 .css-selectors__paragraph {
-display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: 16px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 16px;
 }
 
 .picture-size__picture {
   display: block;
   width: 40%;
   position: relative;
-  right:4px;
- }
+  right: 4px;
+}
