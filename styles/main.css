@@ -96,21 +96,6 @@ Blog Images CSS
   border-radius: 0.8rem;
 }
 
-.bog-post__img::before {
-  content: '';
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(
-    to right,
-    rgba(79, 172, 254, 0.8),
-    rgba(0, 242, 254, 0.8)
-  );
-  box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.05);
-  border-radius: 0.8rem;
-}
 
 .blog-post__date span {
   display: block;
@@ -175,51 +160,7 @@ Te Houtea Blog CSS Formatting
 
 } */
 
-.te-houtaewa-blog__heading {
-  display: bold;
-  font-size: 8em;
-  margin-block-start: 1em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: sunderline;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  line-height: 100px;
-}
 
-.te-houtaewa-blog__sub-title {
-  display: block;
-  font-size: 4em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-}
-
-.te-houtaewa-blog__date {
-  display: block;
-  font-size: 3em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  color: rgb(0, 0, 0);
-}
-
-.te-houtaewa-blog__paragraph {
-  display: block;
-  font-size: 3em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  color: black;
-}
 
 /* -----------------------------
 CSS Selectors Formatting
@@ -237,6 +178,8 @@ CSS Selectors Formatting
   text-align: center;
   line-height: 100px;
   color: rgb(0, 0, 0);
+  
+  
 }
 
 .blog-heading__h1-heading-format {
