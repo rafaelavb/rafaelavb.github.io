@@ -24,7 +24,7 @@ img {
   background: url('../assets/sky.jpg') no-repeat
 }
 
-.back-ground-color__css-selectors {
+.back-ground-color__blog {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,32 +33,6 @@ img {
   background-color: #ffffff;
 }
 
-.back-ground-color__te-houtaewa {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #eee;
-  padding: 0 1.5em;
-  background-color: #ffffff; 
-}
-
-.back-ground-color__learning-plan {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #eee;
-  padding: 0 1.5em;
-  background-color: #ffffff; 
-}
-
-.back-ground-color__identity-values {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #eee;
-  padding: 0 1.5em;
-  background-color: #ffffff; 
-}
 
 .blog-post__card {
   max-width: 100%;
