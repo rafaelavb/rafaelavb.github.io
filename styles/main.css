@@ -15,7 +15,6 @@ img {
   width: 100%;
 }
 
-
 /* Navbar container */
 .navbar {
   overflow: hidden;
@@ -52,7 +51,8 @@ img {
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   background-color: red;
 }
 
@@ -62,7 +62,7 @@ img {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -86,15 +86,13 @@ img {
   display: block;
 }
 
-
-
 .back-ground-color__home {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #eee;
+
   padding: 0 1.5em;
-  background: url('../assets/sky.jpg') no-repeat
+  background: url('../assets/sky.jpg') no-repeat;
 }
 
 .back-ground-color__blog {
@@ -142,7 +140,6 @@ Blog Images CSS
   display: block;
   border-radius: 0.8rem;
 }
-
 
 .blog-post__date span {
   display: block;
@@ -207,8 +204,6 @@ Te Houtea Blog CSS Formatting
 
 } */
 
-
-
 /* -----------------------------
 CSS Selectors Formatting
 ----------------------------- */
@@ -225,8 +220,6 @@ CSS Selectors Formatting
   text-align: center;
   line-height: 100px;
   color: rgb(0, 0, 0);
-  
-  
 }
 
 .blog-heading__h1-heading-format {
